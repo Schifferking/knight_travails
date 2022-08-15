@@ -12,3 +12,11 @@ class Board
     arr.repeated_permutation(2).to_a
   end
 end
+
+class Knight
+  attr_accessor :current_position
+
+  def initialize
+    @current_position = nil
+  end
+end
