@@ -18,7 +18,7 @@ class Board
     @squares = []
   end
 
-  def add_vertex(vertex)
-    @squares << Vertex.new(vertex)
+  def add_square(square)
+    @squares << Vertex.new(square)
   end
 end
