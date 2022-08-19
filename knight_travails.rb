@@ -10,3 +10,15 @@ class Vertex
     @edges << vertex
   end
 end
+
+class Board
+  attr_accessor :squares
+
+  def initialize
+    @squares = []
+  end
+
+  def add_vertex(vertex)
+    @squares << Vertex.new(vertex)
+  end
+end
