@@ -5,4 +5,8 @@ class Vertex
     @value = value
     @edges = []
   end
+
+  def add_edge(vertex)
+    @edges << vertex
+  end
 end
